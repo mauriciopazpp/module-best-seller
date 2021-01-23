@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Mauricio Paz
+ * @copyright Copyright © 2020 Mpaz. All rights reserved.
+ * @package Mpaz_MomoBestSellerProducts
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType
+        name="Mpaz\MomoBestSellerProducts\Model\Catalog\Sorting\BestSeller\Descending"
+        type="Mpaz\MomoBestSellerProducts\Model\Catalog\Sorting\BestSeller">
+        <arguments>
+            <argument name="label" xsi:type="string">Best Seller Products</argument>
+            <argument name="sortDirection" xsi:type="const">\Magento\Framework\DB\Select::SQL_DESC</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\PageBuilder\Model\Catalog\Sorting">
+        <arguments>
+            <argument name="sortClasses" xsi:type="array">
+                <item name="best_seller" xsi:type="string">Mpaz\MomoBestSellerProducts\Model\Catalog\Sorting\BestSeller\Descending</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

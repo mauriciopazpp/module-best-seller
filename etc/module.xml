@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Mauricio Paz
+ * @copyright Copyright © 2020 Mpaz. All rights reserved.
+ * @package Mpaz_MomoBestSellerProducts
+ */
+-->
+<config
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="Mpaz_MomoBestSellerProducts" setup_version="1.0.0"></module>
+</config>
