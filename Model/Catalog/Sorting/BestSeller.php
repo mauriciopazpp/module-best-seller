@@ -6,12 +6,12 @@
  * 
  * @author Mauricio Paz Pacheco
  * @copyright Copyright © 2020 Mpaz. All rights reserved.
- * @package Mpaz_MomoBestSellerProducts
+ * @package Mpaz_BestSellerProducts
  */
 
 declare(strict_types=1);
 
-namespace Mpaz\MomoBestSellerProducts\Model\Catalog\Sorting;
+namespace Mpaz\BestSellerProducts\Model\Catalog\Sorting;
 
 use Magento\Catalog\Model\ResourceModel\Product\Collection;
 use Magento\Framework\DB\Select;
