@@ -4,4 +4,4 @@
 --- 
 ## Magento 2 Best Seller for Page Builder Slider
 
-This module adds a new option "Order By Best Seller" using the reports
+This module adds a new option "Order By Best Seller" using the magento reports
